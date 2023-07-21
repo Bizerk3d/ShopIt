@@ -24,10 +24,6 @@ app.use(express.urlencoded({extended: true}));
 // Cookie parser middleware
 app.use(cookieParser());
 
-app.get('/', (req, res) => {
-    res.send('API is running...');
-});
-
 // direct any requests with 1st param through ProductRoutes 
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
