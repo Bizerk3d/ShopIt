@@ -28,7 +28,7 @@ const ProductEditScreen = () => {
 
     useEffect(() => { 
         if (product) {
-            setName(product.countInStock);
+            setName(product.name);
             setPrice(product.price);
             setImage(product.image);
             setBrand(product.brand);
