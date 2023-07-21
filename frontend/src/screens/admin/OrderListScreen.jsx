@@ -60,7 +60,7 @@ const OrderListScreen = () => {
                 </tbody>
             </Table>
         )}
-        </>;
+    </>;
 };
 
 export default OrderListScreen;

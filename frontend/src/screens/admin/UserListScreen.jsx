@@ -73,7 +73,7 @@ const UserListScreen = () => {
                 </tbody>
             </Table>
         )}
-        </>;
+    </>;
 };
 
 export default UserListScreen;
